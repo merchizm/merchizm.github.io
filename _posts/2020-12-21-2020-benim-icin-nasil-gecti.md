@@ -52,19 +52,19 @@ Ayrıca Karalamalar kısmında yazdığım şiir denilebilecek şeyler var. Sevi
 
 ## Neler dinledin? {#h-neler-dinledin}
 
-Bu yıl Spotify ve Apple Music&#8217;i bir süre beraber kullandım. İlk iki çeyrekte her ikisini son iki çeyrekte ise sadece Apple Music kullandım. Spotify istatistiklerim şöyle;<figure class="wp-block-image size-large">
+Bu yıl Spotify ve Apple Music&#8217;i bir süre beraber kullandım. İlk iki çeyrekte her ikisini son iki çeyrekte ise sadece Apple Music kullandım. Spotify istatistiklerim şöyle; 
 
-<img loading="lazy" width="778" height="1024" src="assets/uploads/2020/12/WhatsApp-Image-2020-12-07-at-2.34.21-PM-778x1024.jpeg" alt="Benim için 2020 nasıl geçti?" class="wp-image-362" /> <figcaption>Benim için 2020 nasıl geçti?</figcaption></figure> 
+<img loading="lazy" width="778" height="1024" src="assets/uploads/2020/12/WhatsApp-Image-2020-12-07-at-2.34.21-PM-778x1024.jpeg" alt="Benim için 2020 nasıl geçti?" class="wp-image-362" />  
 
   
 fakat bu istatistikler sadece yazılım yaparken dinlediklerimden ibaret. Spotify&#8217;da 13.902 dakikamı geçirmişim. Apple Music&#8217;te bilgisayarım üzerindeki istatistikler şu şekilde;  
-<figure class="wp-block-image size-large">
 
-<img loading="lazy" width="1024" height="443" src="assets/uploads/2020/12/Ekran-Resmi-2020-12-07-15.01.07-1024x443.png" alt="" class="wp-image-363" /> <figcaption>Benim için 2020 nasıl geçti?</figcaption></figure> 
 
-Apple Music üzerindeki tüm istatistiklerim ise;<figure class="wp-block-image size-large">
+<img loading="lazy" width="1024" height="443" src="assets/uploads/2020/12/Ekran-Resmi-2020-12-07-15.01.07-1024x443.png" alt="" class="wp-image-363" />
 
-<img loading="lazy" width="827" height="498" src="assets/uploads/2020/12/Ekran-Resmi-2020-12-07-15.04.43.png" alt="" class="wp-image-364" /> <figcaption>Apple Music&#8217;te 521 saatimi geçirmişim.</figcaption></figure> 
+Apple Music üzerindeki tüm istatistiklerim ise;
+
+<img loading="lazy" width="827" height="498" src="assets/uploads/2020/12/Ekran-Resmi-2020-12-07-15.04.43.png" alt="" class="wp-image-364" /> <br/> - Apple Music&#8217;te 521 saatimi geçirmişim.
 
 Tabi bunların yanı sıra uygulamayı açmaya üşenip YouTube üzerinden açtıklarım var. Yoksa roman havası da severim. 😀 Ayrıca istatistiklere bakacak olursak rusça şarkılar dinlemeyi azaltmışım. Bu sanırım iyi.
 
