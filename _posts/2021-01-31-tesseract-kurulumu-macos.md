@@ -1,6 +1,6 @@
 ---
 id: 419
-title: 'Mac OS&#8217;a Tesseract ve Ek Dil Kurulumu'
+title: "Mac OS&#8217;a Tesseract ve Ek Dil Kurulumu"
 date: 2021-01-31T16:45:48+03:00
 author: Meriç Enes Kayalar
 layout: post
@@ -9,6 +9,7 @@ categories:
   - Genel
   - MacOS
 ---
+
 Bu yazıda Tesseract&#8217;ı bir Mac&#8217;te nasıl kullanabileceğinizi anlatacağım. Ayrıca istediğiniz farklı bir dili nasıl kurabileceğinizi de göstereceğim.
 
 Şimdi Tesseract&#8217;ı kurmak için bilgisayarımızda Homebrew paket yöneticisinin olması gerekiyor. Kurmak için Terminali açıp alttaki kodu kopyala/yapıştır yapmanız yeterli.
@@ -19,7 +20,7 @@ Homebrew&#8217;i kurduktan sonra Tesseract&#8217;ı kurmak için yine Terminale 
 
 <pre class="wp-block-code">/usr/local/Cellar/tesseract/4.1.1 (66 files, 47.5MB) *</pre>
 
-Finder&#8217;i açıp klasöre git yaptığınızda _bin_ dizini içerisinde Tesseract&#8217;ı **bulabilirsiniz**. 
+Finder&#8217;i açıp klasöre git yaptığınızda _bin_ dizini içerisinde Tesseract&#8217;ı **bulabilirsiniz**.
 
 ## Türkçe veya farklı bir dili kurmak {#h-t-rk-e-veya-farkl-bir-dili-kurmak}
 

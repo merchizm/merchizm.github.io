@@ -1,22 +1,29 @@
 ---
 id: 260
-title: 'C# Eğitimi : Değişkenlerin Tanımı ve Kullanımı'
+title: "C# Eğitimi : Değişkenlerin Tanımı ve Kullanımı"
 date: 2020-10-16T21:48:02+03:00
 author: Meriç Enes Kayalar
 layout: post
 permalink: /2020-10-16-c-sharp-egitimi-degiskenler
-categories: ['C#', Yazılım]
-tags: [ c sharp değişkenler, 'c#' ,'c# değişkenler' ,'c# değişkenler detaylı anlatım' ,'c# eğitimi' ,yazılım geliştirme]
+categories: ["C#", Yazılım]
+tags:
+  [
+    c sharp değişkenler,
+    "c#",
+    "c# değişkenler",
+    "c# değişkenler detaylı anlatım",
+    "c# eğitimi",
+    yazılım geliştirme,
+  ]
 ---
- 
 
 Herkese merhaba arkadaşlar, bu gün C# eğitiminin ilki olan değişkenler konusunu işleyeceğiz. Değişkenler, hafızada veri tipine ve boyutuna göre yer kaplayan yapılardır. Uygulamamızda atanan 2 değeri türüne göre toplayabilir,birleştirebilir veya çıkarabilir,bölebilirsiniz. Program içerisinde istediğiniz yerde değişkeni tanımlayıp, istediğiniz yerde ise değiştirebilirsiniz.
 
 Öncelikle değişken tanımlarken uymamız gereken bir kaç kural var, sırasıyla değinelim ;
 
-  * Değişken tanımlarken boşluk kullanılmaz. Gerekli durumlarda boşluk kullanmak yerine alt çizgi (_) ile kelimeler birleştirilebilir.
-  * Değişken tanımlarken Türkçe ve özel harfler kullanılmaz. (Örn: ö,ü,ğ,?,!,@)
-  * Değişken tanımlarken ilk karakter her zaman harf olmalıdır, sayı ile başlayan bir değişken tanımlanamaz.
+- Değişken tanımlarken boşluk kullanılmaz. Gerekli durumlarda boşluk kullanmak yerine alt çizgi (\_) ile kelimeler birleştirilebilir.
+- Değişken tanımlarken Türkçe ve özel harfler kullanılmaz. (Örn: ö,ü,ğ,?,!,@)
+- Değişken tanımlarken ilk karakter her zaman harf olmalıdır, sayı ile başlayan bir değişken tanımlanamaz.
 
 <blockquote class="wp-block-quote">
   <p>
@@ -184,7 +191,7 @@ Değişkenler barındırdıkları veriyle göre türden türe değişir. İçind
   </tr>
 </table><figcaption>
 
-_**Dip Not:**&nbsp;Int16, Int32, Int64 tipleri .NET veri tipleridir ve C# karşılıkları short, int, long veri tipleridir._</figcaption></figure> 
+_**Dip Not:**&nbsp;Int16, Int32, Int64 tipleri .NET veri tipleridir ve C# karşılıkları short, int, long veri tipleridir._</figcaption></figure>
 
 Yukarıdaki tabloda veri tiplerini, veri tiplerinin RAM’de kapladığı alanı ve alabileceği maximum/minimum değerleri görmekteyiz.
 
@@ -193,19 +200,19 @@ Yukarıdaki tabloda veri tiplerini, veri tiplerinin RAM’de kapladığı alanı
 Değişkeni tanımlar iken dikkat etmemiz gereken unsurlar vardır. Veri tipini belirledikten sonra değişkene vereceğimiz ismi belirliyoruz. Örnek olarak kullanıcının yaşını tutmak istiyoruz. Short veri tipi hem az yer kaplayıp hemde bizim isteyeceğimiz aralıkta bir kapasitesi var. Şimdi aşağıdan nasıl değişken oluşturmanız gerektiğine bakabilirsiniz.
 
 {% highlight csharp %}
-`<Veri Tipi> <Değişken ismi>;`
+<Veri Tipi> <Değişken ismi>;
 {% endhighlight %}
 
 Değişkeni sadece oluşturmak için yukarıdaki komut yeterli birden fazla aynı türde değişken oluşturmak için ise,
 
 {% highlight csharp %}
-`<Veri Tipi> <Değişken Adı>, <Değişken Adı 2>, <Değişken Adı 3>;`
+<Veri Tipi> <Değişken Adı>, <Değişken Adı 2>, <Değişken Adı 3>;
 {% endhighlight %}
 
 Yapmanız gerekmektedir. İsterseniz veriyi oluştururken aynı anda ona veri atayabilirsiniz ama birden fazla oluşturulmuş değişkenlere veri atamak için tek tek yazmanız gerekir. Aşağıdan değişkeni hem oluşturup hemde nasıl veri ataya bileceğinize bakabilirsiniz.
 
 {% highlight csharp %}
-`<Veri Tipi> <Değişken ismi> = <İçerik>;`
+<Veri Tipi> <Değişken ismi> = <İçerik>;
 {% endhighlight %}
 
 Tabi ki her şeyin kuralları olduğu gibi değişken ismi koyarken de bir takım kurallara uymamız gerekmektedir. Değişken ismi sayı ile veya farklı bir karakter ile başlayamaz ayrıca[ C# anahtar sözcükleri](https://merich.rocks/url/3ce661) değişken ismi olarak kullanılamaz.  Anahtar sözcüklerine bakmak için[ tıkla](https://merich.rocks/url/3ce661)yınız. Aşağıda nasıl değişken oluşturulduğuna bakabilirsiniz.
@@ -220,10 +227,9 @@ bool iookul = false;
 bool lise = true;
 {% endhighlight %}
 
-
 Ayrıca değişkenler oluşturulduğu yere göre farklı alanlarda kullanılabilir veya kullanımı kısıtlanabilir. Her yerde kullanabildiğimiz değişkenlere ise Global Değişken deriz.
 
-<img loading="lazy" width="725" height="382" src="assets/uploads/2020/11/Screenshot_2-1.png" alt="" class="wp-image-302" /> 
+<img loading="lazy" width="725" height="382" src="assets/uploads/2020/11/Screenshot_2-1.png" alt="" class="wp-image-302" />
 
 ### **Değişkene Değer Atama**
 

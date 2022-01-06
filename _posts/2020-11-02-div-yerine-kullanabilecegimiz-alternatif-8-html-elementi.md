@@ -16,169 +16,179 @@ tags:
   - dive alternatif elementler
   - html dive alternatif
 ---
-
 Bir HTML belgesinin nasıl oluştuğunu öğrenmenin ilk aşamalarında bazı geliştiricilerin div çorbası problemi ile karşılaşmaları gayet olasıdır.
 
 Bu olasılığı olabildiğince düşürmek için bugün sizlere <div> yerine kullanabileceğiniz alternatif 8 html etiketi/elementi göstereceğim.
 
-## Main Elementi
+## Main Elementi 
 
 `<main>` tarayıcılarda veya ekran okuyucularında içeriğin bu element içerisinde olduğunu gösterir. Bu, klavye komutlarına erişmenize, mobil tarayıcıları yakınlaştırmanıza ve daha fazlasına yardımcı olabilir. Sayfa başına sadece <mark>bir kez</mark> kullanılmalıdır.
 
-{% highlight html %}lt;main class="icerik"&gt;
-&lt;h2&gt;BAŞLIIK LA BUU&lt;/h2&gt;
-&lt;p&gt;İnanmazsın bende paragrafım.&lt;/p&gt;
-&lt;/main&gt;{% endhighlight %}
+{% highlight html %}
+<main class="icerik">
+    <h2>BAŞLIIK LA BUU</h2>
+    <p>İnanmazsın bende paragrafım.</p>
+</main>
+{% endhighlight %}
 
-## Section Elementi
+## Section Elementi 
 
 `<section>` elementi içeriği gruplamak için kullanılır ve bir belgenin veya uygulamanın bir bölümünü temsil eder, sayfa içerisinde bir çok kez kullanabilirsiniz. Section elementi kendi içerisinde <mark>header</mark> ve <mark>footer</mark> elementlerine sahip olabilir.
 
-{% highlight html %}lt;main class="icerik"&gt;
+{% highlight html %}
+<main class="icerik">
 
-    &lt;section class="gonderi"&gt;
-        &lt;h2&gt;İnsanlar niye saçma şarkıları isteksizce ezberler ?&lt;/h2&gt;
-        &lt;p&gt; İsviçreli bilim adamları bu konuyu araştırıyor işte&lt;/p&gt;
-    &lt;/section&gt;
+    <section class="gonderi">
+        <h2>İnsanlar niye saçma şarkıları isteksizce ezberler ?</h2>
+        <p> İsviçreli bilim adamları bu konuyu araştırıyor işte</p>
+    </section>
 
-    &lt;section class="gonderi"&gt;
-        &lt;h2&gt;İnsanlar niye soru sorar ?&lt;/h2&gt;
-        &lt;p&gt;...&lt;/p&gt;
-    &lt;/section&gt;
+    <section class="gonderi">
+        <h2>İnsanlar niye soru sorar ?</h2>
+        <p>...</p>
+    </section>
 
-&lt;/main&gt;{% endhighlight %}
+</main>
+{% endhighlight %}
 
-## Header Elementi
+## Header Elementi 
 
-`<header>` elementi genellikle bir giriş veya gezinme yardımcıları grubu olan giriş içeriğini temsil eder. Bazı başlık öğelerinin yanı sıra bir logo, bir arama formu, bir yazar adı ve diğer öğeleri de içerebilir.
+`<header>` elementi genellikle bir giriş veya gezinme yardımcıları grubu olan giriş içeriğini temsil eder. Bazı başlık öğelerinin yanı sıra bir logo, bir arama formu, bir yazar adı ve diğer öğeleri de içerebilir. 
 
-{% highlight html %}lt;header class="baslik kedi"&gt;
-Pati Kulübü&#39;ne hoş geldiniz!
-&lt;/header&gt;
-&lt;section&gt;
-&lt;header class="yazi-baslik"&gt;
-Ünlü ankara kedisi Khaalesi ağıza yakışmayacak söylemlerde bulundu !!
-&lt;/header&gt;
-&lt;p&gt; miyav miyavına miyav miyavvvv dedi. &lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;header class="yazi-baslik"&gt;
-Altın yeni klibiyle dünyayı salladı !!
-&lt;/header&gt;
-&lt;p&gt; kulağımda sayısız cevapsız bir miyavlamaa.... &lt;/p&gt;
-&lt;/section&gt;{% endhighlight %}
+{% highlight html %}
+<header class="baslik kedi">
+    Pati Kulübü'ne hoş geldiniz!
+</header>
+<section>
+    <header class="yazi-baslik">
+        Ünlü ankara kedisi Khaalesi ağıza yakışmayacak söylemlerde bulundu !!
+    </header>
+    <p> miyav miyavına miyav miyavvvv dedi. </p>
+</section>
+<section>
+    <header class="yazi-baslik">
+        Altın yeni klibiyle dünyayı salladı !!
+    </header>
+    <p> kulağımda sayısız cevapsız bir miyavlamaa.... </p>
+</section>
+{% endhighlight %}
 
 ## Footer Elementi
 
 `<footer>` elementi, bir belgenin veya bölümün “altbilgi” bölümünü temsil eder. Birçok web sitesinde, footer elementi iletişim ve telif hakkı bilgileri, kısa bir “hakkında” kısmı, reklam, sosyal medya logoları ve bağlantıları vb. içerir.
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-html" data-file="index.html" data-lang="HTML"><code>
-&lt;header class="baslik kedi"&gt;
-    Pati Kulübü&#39;ne hoş geldiniz!
-&lt;/header&gt;
-&lt;section&gt;
-    &lt;header class="yazi-baslik"&gt;
-        Ünlü ankara kedisi Khaalesi ağıza yakışmayacak söylemlerde bulundu !!
-    &lt;/header&gt;
-    &lt;p&gt; miyav miyavına miyav miyavvvv dedi. &lt;/p&gt;
-&lt;/section&gt;
-&lt;section&gt;
-    &lt;header class="yazi-baslik"&gt;
-        Altın yeni klibiyle dünyayı salladı !!
-    &lt;/header&gt;
-    &lt;p&gt; kulağımda sayısız cevapsız miyavlamaa.... &lt;/p&gt;
-&lt;/section&gt;
 
-&lt;footer class="altbilgi"&gt;
-&lt;p&gt;Tüm hakları saklıdır 2020. Pati Kulübü tarafından aşkla oluşturulmuştur&lt;/p&gt;
-&lt;a href="https://twitter.com/patimatibumkati"&gt;Twitter Hesabımız&lt;/a&gt;
-&lt;/footer&gt;{% endhighlight %}
+{% highlight html %}
+<header class="baslik kedi">
+    Pati Kulübü'ne hoş geldiniz!
+</header>
+<section>
+    <header class="yazi-baslik">
+        Ünlü ankara kedisi Khaalesi ağıza yakışmayacak söylemlerde bulundu !!
+    </header>
+    <p> miyav miyavına miyav miyavvvv dedi. </p>
+</section>
+<section>
+    <header class="yazi-baslik">
+        Altın yeni klibiyle dünyayı salladı !!
+    </header>
+    <p> kulağımda sayısız cevapsız miyavlamaa.... </p>
+</section>
+
+<footer class="altbilgi">
+    <p>Tüm hakları saklıdır 2020. Pati Kulübü tarafından aşkla oluşturulmuştur</p>
+    <a href="https://twitter.com/patimatibumkati">Twitter Hesabımız</a>
+</footer>
+{% endhighlight %}
 
 ## Aside Elementi
 
 `<aside>` elementi, temel olarak belirli bir bölümle ilgili içeriği içeren bir sayfanın bir bölümünü temsil etmek için kullanılır. Aside elementleri genellikle kenar çubukları(sidebar) olarak kullanılır.
 
-{% highlight html %}lt;header&gt;
-&lt;h2&gt; Vazgeçenlerin Radyosu, BLARADYO..&lt;/h2&gt;
-&lt;/header&gt;
-&lt;main class="icerikler"&gt;
-&lt;section class="icerik"&gt;
-Bugün bolca Sezen Aksu dinleyeceğiz.
-&lt;aside&gt;
-&lt;p&gt;&lt;b&gt;ahmet&lt;/b&gt;: ben sezen ablanın vazgeçtim şarkısı istiyorum.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;mustafa&lt;/b&gt;: ağa efkarım birikti sığmaz içime açsana ya..&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;mehmet&lt;/b&gt;: 🇹🇷 🇹🇷 🇹🇷&lt;/p&gt;
-&lt;/aside&gt;
-&lt;/section&gt;
-&lt;/main&gt;{% endhighlight %}
+{% highlight html %}
+<header>
+    <h2> Vazgeçenlerin Radyosu, BLARADYO..</h2>
+</header>
+<main class="icerikler">
+    <section class="icerik">
+        Bugün bolca Sezen Aksu dinleyeceğiz.
+        <aside>
+            <p><b>ahmet</b>: ben sezen ablanın vazgeçtim şarkısı istiyorum.</p>
+            <p><b>mustafa</b>: ağa efkarım birikti sığmaz içime açsana ya..</p>
+            <p><b>mehmet</b>: 🇹🇷 🇹🇷 🇹🇷</p>
+        </aside>
+    </section>
+</main>
+{% endhighlight %}
 
 ## Article Elementi
 
 <article> elementi, içerik bölümleri için kullanılabilir. Blog gönderileri, gazete makaleleri ve kullanıcı yorumları, makale öğesinin bazı olası kullanım durumlarıdır.
 
-{% highlight html %}lt;header&gt;
-&lt;h2&gt; Vazgeçenlerin Radyosu, BLARADYO..&lt;/h2&gt;
-&lt;/header&gt;
-&lt;main class="icerikler"&gt;
-&lt;section class="icerik"&gt;
-Bugün bolca Sezen Aksu dinleyeceğiz.
-&lt;aside&gt;
-&lt;p&gt;&lt;b&gt;ahmet&lt;/b&gt;: ben sezen ablanın vazgeçtim şarkısı istiyorum.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;mustafa&lt;/b&gt;: ağa efkarım birikti sığmaz içime açsana ya..&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;mehmet&lt;/b&gt;: 🇹🇷 🇹🇷 🇹🇷&lt;/p&gt;
-&lt;/aside&gt;
-&lt;/section&gt;
-&lt;section class="yazilar"&gt;
-&lt;article&gt;
-&lt;h3&gt; BLA yeni şarkı çıkardı !!&lt;/h3&gt;
-&lt;p&gt; çıkardı çıkardı..&lt;/p&gt;
-&lt;a href="yazidevami.html"&gt;devamını oku&lt;/a&gt;
-&lt;/article&gt;
-&lt;/section&gt;
-&lt;/main&gt;{% endhighlight %}
+{% highlight html %}
+<header>
+    <h2> Vazgeçenlerin Radyosu, BLARADYO..</h2>
+</header>
+<main class="icerikler">
+    <section class="icerik">
+        Bugün bolca Sezen Aksu dinleyeceğiz.
+        <aside>
+            <p><b>ahmet</b>: ben sezen ablanın vazgeçtim şarkısı istiyorum.</p>
+            <p><b>mustafa</b>: ağa efkarım birikti sığmaz içime açsana ya..</p>
+            <p><b>mehmet</b>: 🇹🇷 🇹🇷 🇹🇷</p>
+        </aside>
+    </section>
+    <section class="yazilar">
+        <article>
+            <h3> BLA yeni şarkı çıkardı !!</h3>
+            <p> çıkardı çıkardı..</p>
+            <a href="yazidevami.html">devamını oku</a>
+        </article>
+    </section>
+</main>
+{% endhighlight %}
 
-## Blockquote Elementi
+## Blockquote Elementi 
 
 Blockquote elementi, harici bir kaynaktan (kişi, belge, gazete, vaka çalışması, vb.) alıntılanan içeriği temsil eder. Genellikle, alıntıyı kaynağına atfetmek için cite elementi eşlik eder.
-
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-html" data-lang="HTML"><code>&lt;blockquote&gt;
+{% highlight html %}
+<blockquote>
     "Her söylediğini bil, her bildiğini söyleme."
-&lt;/blockquote&gt;
-&lt;cite&gt;- Cladius&lt;/cite&gt;</code></pre>
-</div>
+</blockquote>
+<cite>- Cladius</cite>
+{% endhighlight %}
 
-## Nav Elementi
+## Nav Elementi 
 
 `<nav>` elementi, gezinme öğeleri bir belgenin gezinme bölümünü temsil eder. Gezinme öğesi, belirli bir sayfa, uygulama vb. için ana gezinme bağlantılarını içerir.
-
-{% highlight html %}lt;header&gt;
-&lt;h2&gt; Vazgeçenlerin Radyosu, BLARADYO..&lt;/h2&gt;
-&lt;/header&gt;
-&lt;nav id="menu"&gt;
-&lt;ul class="menu"&gt;
-&lt;li&gt;&lt;a href="anasayfa.html"&gt;Ana Sayfa&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="radyo.html"&gt;CANLI RADYO DINLE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="iletisim.html"&gt;İletişim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;main class="icerikler"&gt;
-&lt;section class="icerik"&gt;
-Bugün bolca Sezen Aksu dinleyeceğiz.
-&lt;aside&gt;
-&lt;p&gt;&lt;b&gt;ahmet&lt;/b&gt;: ben sezen ablanın vazgeçtim şarkısı istiyorum.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;mustafa&lt;/b&gt;: ağa efkarım birikti sığmaz içime açsana ya..&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;mehmet&lt;/b&gt;: 🇹🇷 🇹🇷 🇹🇷&lt;/p&gt;
-&lt;/aside&gt;
-&lt;/section&gt;
-&lt;section class="yazilar"&gt;
-&lt;article&gt;
-&lt;h3&gt; BLA yeni şarkı çıkardı !!&lt;/h3&gt;
-&lt;p&gt; çıkardı çıkardı..&lt;/p&gt;
-&lt;a href="yazidevami.html"&gt;devamını oku&lt;/a&gt;
-&lt;/article&gt;
-&lt;/section&gt;
-&lt;/main&gt;{% endhighlight %}
+{% highlight html %}
+<header>
+    <h2> Vazgeçenlerin Radyosu, BLARADYO..</h2>
+</header>
+<nav id="menu">
+    <ul class="menu">
+        <li><a href="anasayfa.html">Ana Sayfa</a></li>
+        <li><a href="radyo.html">CANLI RADYO DINLE</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+</nav>
+<main class="icerikler">
+    <section class="icerik">
+        Bugün bolca Sezen Aksu dinleyeceğiz.
+        <aside>
+            <p><b>ahmet</b>: ben sezen ablanın vazgeçtim şarkısı istiyorum.</p>
+            <p><b>mustafa</b>: ağa efkarım birikti sığmaz içime açsana ya..</p>
+            <p><b>mehmet</b>: 🇹🇷 🇹🇷 🇹🇷</p>
+        </aside>
+    </section>
+    <section class="yazilar">
+        <article>
+            <h3> BLA yeni şarkı çıkardı !!</h3>
+            <p> çıkardı çıkardı..</p>
+            <a href="yazidevami.html">devamını oku</a>
+        </article>
+    </section>
+</main>
+{% endhighlight %}
 
 bu yazı bu kadardı, bir dahaki yazılarda görüşmek üzere. Bir sorunuz olursa mutlaka yorumlar kısmında belirtin elimden geldiğince destek olmaya çalışacağım.
