@@ -1,0 +1,80 @@
+# Site settings
+site: Ephesus
+title: Merchizm Blog
+keywords: merchizm, blog
+description: >-
+  Merchizm, mcek, mce, rocks
+lang: tr-TR
+timezone:  Europe/Istanbul
+repo: https://github.com/onepase/Ephesus # site repo [optional]
+google_verify:      XXX # Put your Google Verification here
+google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
+discus-identifier:  aslaamaaslatahminedemezsinki
+
+# Author settings
+author:
+  name: M.Enes Kayalar
+  bio: Software Developer <br/> Pixel Artist / Şairimsi <br/> Open Source ❤️‍🔥
+  picture: assets/images/pp.jpeg 
+  github: merchizm # github username
+  twitter: merchizm # twitter username
+  linkedin: enes-kayalar-88b3851b6 # linkedin username
+  email: merichrocks@icloud.com # email adress
+
+
+# URL settings
+url: "https://merchizm.github.io" # Domain Name of host. [username].github.io for github pages
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
