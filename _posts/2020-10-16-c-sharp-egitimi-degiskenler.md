@@ -216,7 +216,7 @@ bool lise = true;</code></pre>
 
 Ayrıca değişkenler oluşturulduğu yere göre farklı alanlarda kullanılabilir veya kullanımı kısıtlanabilir. Her yerde kullanabildiğimiz değişkenlere ise Global Değişken deriz.<figure class="wp-block-image size-large is-style-default">
 
-<img loading="lazy" width="725" height="382" src="https://www.merich.rocks/wp-content/uploads/2020/11/Screenshot_2-1.png" alt="" class="wp-image-302" /> <figcaption>c# değişken dersi</figcaption></figure> 
+<img loading="lazy" width="725" height="382" src="assets/uploads/2020/11/Screenshot_2-1.png" alt="" class="wp-image-302" /> 
 
 ### **Değişkene Değer Atama** {#h-de-i-kene-de-er-atama}
 
