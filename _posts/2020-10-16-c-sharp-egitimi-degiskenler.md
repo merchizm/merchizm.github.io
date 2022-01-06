@@ -204,15 +204,16 @@ Yapmanız gerekmektedir. İsterseniz veriyi oluştururken aynı anda ona veri at
 
 Tabi ki her şeyin kuralları olduğu gibi değişken ismi koyarken de bir takım kurallara uymamız gerekmektedir. Değişken ismi sayı ile veya farklı bir karakter ile başlayamaz ayrıca[ C# anahtar sözcükleri](https://merich.rocks/url/3ce661) değişken ismi olarak kullanılamaz.  Anahtar sözcüklerine bakmak için[ tıkla](https://merich.rocks/url/3ce661)yınız. Aşağıda nasıl değişken oluşturulduğuna bakabilirsiniz.
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-csharp" data-file="main.cs" data-lang="C#"><code>string Isimsoyisim = "İsim Soyisim";
+{% highlight c-sharp %}
+string Isimsoyisim = "İsim Soyisim";
 string dogumtarihi = "1991.11.11";
 short yas = "11";
 double kilo = 60.40;
 double boy = 1.78;
 bool iookul = false;
-bool lise = true;</code></pre>
-</div>
+bool lise = true;
+{% endhighlight %}
+
 
 Ayrıca değişkenler oluşturulduğu yere göre farklı alanlarda kullanılabilir veya kullanımı kısıtlanabilir. Her yerde kullanabildiğimiz değişkenlere ise Global Değişken deriz.<figure class="wp-block-image size-large is-style-default">
 
