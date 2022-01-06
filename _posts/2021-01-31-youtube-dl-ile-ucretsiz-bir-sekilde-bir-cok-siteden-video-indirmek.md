@@ -28,9 +28,9 @@ tabi ki diğer parametrelere `--help` yazarak erişebilir ve tam olarak nasıl k
 <pre class="wp-block-preformatted">youtube-dl -F 'https://www.youtube.com/watch?v=EL-D9LrFJd4'
 -- çıktı olarak kalite değerlerinin bulunduğu listeyi aldım.
 youtube-dl -f 137 'https://www.youtube.com/watch?v=EL-D9LrFJd4'
--- indirme başladı.</pre><figure class="wp-block-image size-large is-resized">
+-- indirme başladı.</pre>
 
-<img loading="lazy" src="https://i.hizliresim.com/Dil4Zh.png" alt="" width="670" height="426" /> </figure> 
+<img loading="lazy" src="https://i.hizliresim.com/Dil4Zh.png" alt="" width="670" height="426" />
 
 Unutmayın ki indirme terminalin veya command prompt&#8217;un çalıştığı dizinde gerçekleşecektir. MacOS&#8217;ta terminalin bulunduğu dizini açmak için `open .` komutu girmeniz gerekirken, Windows&#8217;ta `explorer .` komutu girmelisiniz.
 
