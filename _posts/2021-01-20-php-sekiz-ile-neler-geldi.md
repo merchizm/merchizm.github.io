@@ -17,22 +17,22 @@ Ayrıca şunu belirtmeliyim ki sürüm güncellemesi yapmadan önce değişiklik
 PHP 8 ile gelen sanırım en güzel özellik bu olabilir. Normal&#8217;de bir fonksiyonu kullanırken doldurmak istediğimiz bir argümanın sırası gelene kadar uğraşmamız gerekiyordu. Bu yeni gelen özellikle birlikte buna gerek kalmıyor. Argümanın ismini kullanarak direkt olarak o argümanı kullanabiliyorsunuz. Örnekle göstermek gerekirse;  
 
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code>// önceden pozisyonel argümanları kullanıyorduk ve istediğimiz argümanı kullanmak için birazcık uğraşmamız gerekiyordu.
+{% highlight php %}
+// önceden pozisyonel argümanları kullanıyorduk ve istediğimiz argümanı kullanmak için birazcık uğraşmamız gerekiyordu.
 array_fill(0, 100, 50);
  
 // fakat artık istediğimiz argümanı doldurabiliriz.
 array_fill(start_index: 0, num: 100, value: 50);
 // veya bu şekilde kullanabiliriz.
-array_fill(value: 50, num: 100, start_index: 0);</code></pre>
-</div>
+array_fill(value: 50, num: 100, start_index: 0);
+{% endhighlight %}
 
 ## Attributes {#h-attributes}
 
 PHPDoc yorum satırları yerine PHP Söz dizimi ile yapılandırılmış metadata kullanılabiliyor. Yani şu şekilde;
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code># eskiden
+{% highlight php %}
+# eskiden
 class AboutPage extends AbstractController {
     /**
      * @Route("/about")
@@ -44,15 +44,15 @@ class AboutPage extends AbstractController {
 class AboutPage extends AbstractController {
     #[Route(&#39;/about&#39;)]
     public function page() {}
-}</code></pre>
-</div>
+}
+{% endhighlight %}
 
 ## Construct&#8217;ta değişken tanımlamak (Constructor property promotion)
 
 Biliyorsunuz ki önceden bir sınıf içerisinde değişken oluşturduktan sonra this->değişken = veri şeklinde verileri atıyorduk. Artık böyle bir şeye ihtiyacımız yok! Hemen örnekle göstereyim.
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code># eskiden
+{% highlight php %}
+# eskiden
 class Point {
     public float $x;
     public float $y;
@@ -76,8 +76,9 @@ class Point {
         public float $y = 0.0,
         public float $z = 0.0,
     ) {}
-}</code></pre>
-</div>
+}
+{% endhighlight %}
+
 
 Gördüğünüz gibi inanılmaz pratikleşti.
 
@@ -85,8 +86,8 @@ Gördüğünüz gibi inanılmaz pratikleşti.
 
 Artık değişken türlerinin kombinasyonu için PHPDoc açıklamaları yerine çalışma zamanında doğrulanan union types tanımlamaları kullanılabiliyor.
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code># eskiden
+{% highlight php %}
+# eskiden
 class Number {
   /** @var int|float */
   private $number;
@@ -108,30 +109,29 @@ class Number {
   ) {}
 }
 
-new Number(&#39;NaN&#39;); // TypeError</code></pre>
-</div>
+new Number(&#39;NaN&#39;); // TypeError
+{% endhighlight %}
 
 ## Match expression (Eşleşme İfadesi)
 
 Eşleşen veriye göre veri döndüren switch benzeri bir ifade geldi. Verinin durumuna göre veri döndürdüğü için belki dil değiştirme benzeri sistemlerde kullanılabilir. Kesinlikle işlevsel olduğunu düşünüyorum.
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code>$yaş = 23;
+{% highlight php %}
+$yaş = 23;
 
 $result = match (true) {
     $yaş &gt;= 65 =&gt; &#39;yaşlı&#39;,
     $yaş &gt;= 25 =&gt; &#39;yetişkin&#39;,
     $yaş &gt;= 18 =&gt; &#39;genç&#39;,
     default =&gt; &#39;çocuk&#39;,
-};</code></pre>
-</div>
-
+};
+{% endhighlight %}
 ## Nullsafe Operatörü
 
 Bu operatörle birlikte büyük bir dertten kurtulacaksınız. Aslında isminde gizli işlevi. Eğer varsa kullan gibi veya eğer varsa ilerle fakat çok daha pratik bir şekilde, hemen kodu inceleyelim:
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code># eskiden
+{% highlight php %}
+# eskiden
 $country =  null;
 
 if ($session !== null) {
@@ -147,8 +147,9 @@ if ($session !== null) {
 }
 
 # şimdi ise
-$country = $session?-&gt;user?-&gt;getAddress()?-&gt;country;</code></pre>
-</div>
+$country = $session?-&gt;user?-&gt;getAddress()?-&gt;country;
+{% endhighlight %}
+
 
 Gördüğünüz gibi muhteşem !
 
@@ -156,21 +157,21 @@ Gördüğünüz gibi muhteşem !
 
 Fonksiyonların isminden de anlayacağımız üzere dize üzerinde yapabileceğimiz bir kaç özellik sunuyor. Dize içinde bir iğne ararken strpos kullanmak zorunda kalmayacağız. Yani şundan kurtuluyoruz:
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code># eskiden
+{% highlight php %}
+# eskiden
 if(strpos(&#39;Kek yapmak için gereken tek şey ilham !&#39;, &#39;ilham&#39;) !== false):
 
 # şimdi ise
 if(str_contains(&#39;Kek yapmak için gereken tek şey ilham !&#39;,&#39;ilham&#39;)):
-</code></pre>
-</div>
+{% endhighlight %}
+
 
 Ayrıca diğer fonksiyonlarda şöyle;
 
-<div class="hcb_wrap">
-  <pre class="prism line-numbers lang-php" data-lang="PHP"><code>str_starts_with(&#39;Liberta&#39;, &#39;Lib&#39;) // true döndürür.
-str_ends_with(&#39;Liberta&#39;, &#39;a&#39;) // true döndürür.</code></pre>
-</div>
+{% highlight php %}
+str_starts_with(&#39;Liberta&#39;, &#39;Lib&#39;) // true döndürür.
+str_ends_with(&#39;Liberta&#39;, &#39;a&#39;) // true döndürür.
+{% endhighlight %}
 
 ## JIT yada Just in Time Compiler (Son Dakika Derleyicisi)
 

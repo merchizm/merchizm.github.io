@@ -28,9 +28,8 @@ Typescript, nesne yönelimli ve derlenebilir açık kaynaklı bir programlama di
   * Javascript dilinde statik veri tiplemesi yoktur. Verilerin tipi dinamik olarak yürütme aşamasında belirlenir. Typescript&#8217;te isteğe bağlı olarak veri tiplemesi yapılabilir.
   * Sağladığı avantajlar nedeniyle Javascript kodundan daha kolay okunabilir ve düzenlenebilir bir yapısı vardır.
 
-Ayrıca Typescript, Javascript&#8217;in sunduğu tüm kütüphaneleri ve çatıları kullanabilir. Yani Typescript Javascript&#8217;in daha gelişmiş ve daha güvenilir hali diyebiliriz.<figure class="wp-block-image size-large is-resized">
-
-<img loading="lazy" src="assets/uploads/2020/12/typescript_yetkinligi.png" alt="Typescript Nedir?" class="wp-image-368" width="579" height="651" /> <figcaption>Typescript Nedir?</figcaption></figure> 
+Ayrıca Typescript, Javascript&#8217;in sunduğu tüm kütüphaneleri ve çatıları kullanabilir. Yani Typescript Javascript&#8217;in daha gelişmiş ve daha güvenilir hali diyebiliriz.
+<img loading="lazy" src="assets/uploads/2020/12/typescript_yetkinligi.png" alt="Typescript Nedir?" class="wp-image-368" width="579" height="651" /> 
 
 ## Neden Typescript?
 

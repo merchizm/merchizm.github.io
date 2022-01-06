@@ -192,19 +192,25 @@ Yukarıdaki tabloda veri tiplerini, veri tiplerinin RAM’de kapladığı alanı
 
 Değişkeni tanımlar iken dikkat etmemiz gereken unsurlar vardır. Veri tipini belirledikten sonra değişkene vereceğimiz ismi belirliyoruz. Örnek olarak kullanıcının yaşını tutmak istiyoruz. Short veri tipi hem az yer kaplayıp hemde bizim isteyeceğimiz aralıkta bir kapasitesi var. Şimdi aşağıdan nasıl değişken oluşturmanız gerektiğine bakabilirsiniz.
 
+{% highlight csharp %}
 `<Veri Tipi> <Değişken ismi>;`
+{% endhighlight %}
 
 Değişkeni sadece oluşturmak için yukarıdaki komut yeterli birden fazla aynı türde değişken oluşturmak için ise,
 
+{% highlight csharp %}
 `<Veri Tipi> <Değişken Adı>, <Değişken Adı 2>, <Değişken Adı 3>;`
+{% endhighlight %}
 
 Yapmanız gerekmektedir. İsterseniz veriyi oluştururken aynı anda ona veri atayabilirsiniz ama birden fazla oluşturulmuş değişkenlere veri atamak için tek tek yazmanız gerekir. Aşağıdan değişkeni hem oluşturup hemde nasıl veri ataya bileceğinize bakabilirsiniz.
 
+{% highlight csharp %}
 `<Veri Tipi> <Değişken ismi> = <İçerik>;`
+{% endhighlight %}
 
 Tabi ki her şeyin kuralları olduğu gibi değişken ismi koyarken de bir takım kurallara uymamız gerekmektedir. Değişken ismi sayı ile veya farklı bir karakter ile başlayamaz ayrıca[ C# anahtar sözcükleri](https://merich.rocks/url/3ce661) değişken ismi olarak kullanılamaz.  Anahtar sözcüklerine bakmak için[ tıkla](https://merich.rocks/url/3ce661)yınız. Aşağıda nasıl değişken oluşturulduğuna bakabilirsiniz.
 
-{% highlight c-sharp %}
+{% highlight csharp %}
 string Isimsoyisim = "İsim Soyisim";
 string dogumtarihi = "1991.11.11";
 short yas = "11";
@@ -215,11 +221,11 @@ bool lise = true;
 {% endhighlight %}
 
 
-Ayrıca değişkenler oluşturulduğu yere göre farklı alanlarda kullanılabilir veya kullanımı kısıtlanabilir. Her yerde kullanabildiğimiz değişkenlere ise Global Değişken deriz.<figure class="wp-block-image size-large is-style-default">
+Ayrıca değişkenler oluşturulduğu yere göre farklı alanlarda kullanılabilir veya kullanımı kısıtlanabilir. Her yerde kullanabildiğimiz değişkenlere ise Global Değişken deriz.
 
 <img loading="lazy" width="725" height="382" src="assets/uploads/2020/11/Screenshot_2-1.png" alt="" class="wp-image-302" /> 
 
-### **Değişkene Değer Atama** {#h-de-i-kene-de-er-atama}
+### **Değişkene Değer Atama**
 
 Tanımlanmış bir değişkenin değerini değiştirmek için sadece değişken ismi ve değer ataması yapmak için ise eşittir (=) kullanılır.Bir değişkene değer atama değişkeni tanımlarken veya farklı bir satırda yapılabilir.
 
