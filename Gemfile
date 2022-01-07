@@ -1,5 +1,5 @@
 
-gem "jekyll_inline_highlight.rb"
+gem 'jekyll_inline_highlight.rb'
 
 source "https://rubygems.org"
 gem 'jekyll'
