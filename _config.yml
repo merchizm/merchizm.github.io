@@ -44,7 +44,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-relative-links
-  - jekyll_inline_highlight
+  - jekyll_inline_highlight.rb
 paginate: 20
 paginate_path: "/page/:num"
 
