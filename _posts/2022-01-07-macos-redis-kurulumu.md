@@ -23,10 +23,11 @@ pecl'in varlığını teyit ettikten sonra başlayabiliriz, sırasıyla şu komu
 Bu şekilde PHPRedisi kurmuş olduk.
 
 Bu kurulum sürecinden sonra PHP servisinizi yeniden başlatmayı unutmayın. Ben hem PHP servisini hem de httpd'yi yeniden başlatıyorum.
+
 ___
 
-Şimdi de redisi kuralım, bunun için de Terminale sadece <pre> brew install redis </pre> yazmamız yeterli.
+Şimdi de redisi kuralım, bunun için de Terminale sadece {% ihighlight bash %} brew install redis {% endihighlight %} yazmamız yeterli.
 
-kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya <pre> /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf </pre> komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
+kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya {% ihighlight bash %}  /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf {% endihighlight %}  komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
 
-Redis için şifreyi de <pre> /usr/local/etc/redis.conf </pre> üzerinden ayarlayabilirsiniz.
+Redis için şifreyi de {% ihighlight bash %}  /usr/local/etc/redis.conf {% endihighlight %} üzerinden ayarlayabilirsiniz.
