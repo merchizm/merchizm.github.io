@@ -10,3 +10,5 @@ gem 'wdm', '>= 0.1.0'
 
 # update ruby version
 gem 'webrick'
+
+gem "jekyll_inline_highlight", "~> 3.0"
