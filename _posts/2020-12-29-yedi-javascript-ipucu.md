@@ -1,34 +1,36 @@
 ---
 id: 377
 title: Mutlaka bilmeniz gereken 7 Javascript İpucu
-date: 2020-12-29T16:33:16+03:00
+date: 2020-12-29T16:33:16 03:00
 author: Meriç Enes Kayalar
 layout: post
 permalink: /2020-12-29-yedi-javascript-ipucu
 categories:
   - Javascript
   - Yazılım
+tags:
+  - Javascript
 ---
 
-Javascript gerçekten çok güçlü bir programlama dil, özellikle de web ortamında. Son beş yıl içerisinde çokça yol katetti. Artık yazmak yeni özellikleriyle yazmak çok daha basit ve pratik. Bu makale de Javascript&#8217;in yedi muhteşem ipucunu keşfeteceğiz.
+Javascript gerçekten çok güçlü bir programlama dil, özellikle de web ortamında. Son beş yıl içerisinde çokça yol katetti. Artık yazmak yeni özellikleriyle yazmak çok daha basit ve pratik. Bu makale de Javascript’in yedi muhteşem ipucunu keşfeteceğiz.
 
 ## 1. Dizeyi sayıya çevirmek {#h-1-dizeyi-say-ya-evirmek}
 
-Javascript&#8217;in tekli operatörü sayesinde bir dizeyi basit bir şekilde sayıya çevirebilirsiniz. Çevirmek için dize başına + girmeniz yeterli. Fakat unutmayın bu işlem sadece Dize içerisinde barınan sayılar için geçerlidir. (Örnekte olduğu gibi)
+Javascript’in tekli operatörü sayesinde bir dizeyi basit bir şekilde sayıya çevirebilirsiniz. Çevirmek için dize başına   girmeniz yeterli. Fakat unutmayın bu işlem sadece Dize içerisinde barınan sayılar için geçerlidir. (Örnekte olduğu gibi)
 
 {% highlight javascript %}dize = "123";
-console.log(+dize);
+console.log( dize);
 // 123
 
 dize_2 = "Yakışıklıyım"
-console.log(+dize_2);
+console.log( dize_2);
 // NaN{% endhighlight %}
 
 ## 2. Sayıyı dizeye çevirmek {#h-2-say-y-dizeye-evirmek}
 
 İsterseniz sayıyı dizeye de çevirebilirsiniz. Sayı ile boş bir dizeyle toplamanız yeterli.
 
-{% highlight javascript %}var artikObirDize = 5 + "";
+{% highlight javascript %}var artikObirDize = 5   "";
 console.log(artikObirDize);
 // 5
 console.log(typeof artikObirDize);
@@ -36,7 +38,7 @@ console.log(typeof artikObirDize);
 
 ## 3.Benzersiz değerlere ayıklamak {#h-3-benzersiz-de-erlere-ay-klamak}
 
-Aynı değerlerin bulunduğu bir dizi&#8217;yi ayıklayıp benzersiz değerlere sahip bir dizi oluşturabiliriz. Bunuda **Set** ve **Spread** operatörü ile yapıyoruz.
+Aynı değerlerin bulunduğu bir dizi’yi ayıklayıp benzersiz değerlere sahip bir dizi oluşturabiliriz. Bunuda **Set** ve **Spread** operatörü ile yapıyoruz.
 
 {% highlight javascript %}var cekmecem = [50,60,40,10,90,60,90,40,60,50];
 var ihtiyacimOlanlar = [...New Set(cekmecem)];
@@ -81,7 +83,7 @@ Bu sizin çok daha kısa kodlar yazmanıza yardımcı olacaktır.
 
 ## 7. Uzunluğunu kurcalayarak dizeye mutasyon geçirtmek {#h-7-uzunlu-unu-kurcalayarak-dizeye-mutasyon-ge-irtmek}
 
-Javascript&#8217;te dizenin length değerini dilediğimiz gibi düzenleyebiliriz. Bunu da avantajlı bir şekilde kullanabiliriz. Dilersek dizeyi kısaltabiliriz, dilersek dizeyi boşaltabiliriz.  
+Javascript’te dizenin length değerini dilediğimiz gibi düzenleyebiliriz. Bunu da avantajlı bir şekilde kullanabiliriz. Dilersek dizeyi kısaltabiliriz, dilersek dizeyi boşaltabiliriz.  
 Eğer dizeyi kısaltmak istersek;
 
 {% highlight javascript %}var sayilar = [1,2,3,4,5,6,7,8]

@@ -1,12 +1,14 @@
 ---
 id: 419
-title: "MAC OS&#8217;a Tesseract ve Ek Dil Kurulumu"
+title: "MacOS&#8217;a Tesseract ve Ek Dil Kurulumu"
 date: 2021-01-31T16:45:48+03:00
 author: Meriç Enes Kayalar
 layout: post
 permalink: /2021-01-31-tesseract-kurulumu-macos
 categories:
   - Genel
+  - MacOS
+tags:
   - MacOS
 ---
 

@@ -1,21 +1,23 @@
 ---
 id: 382
 title: PHP 8 ile gelen yeni özellikler ve fonksiyonlar
-date: 2021-01-20T08:58:51+03:00
+date: 2021-01-20T08:58:51 03:00
 author: Meriç Enes Kayalar
 layout: post
 permalink: /2021-01-20-php-sekiz-ile-neler-geldi
 categories:
   - PHP
   - Yazılım
+tags:
+  - PHP
 ---
 
-PHP ilk çıktığında şu an olduğu kadar mükemmel değildi. Geçen Yıllar ve kitlesi PHP&#8217;yi bu hale getirdi. Artık yeni bir major versiyonumuz var. Hadi gelin yeniliklere beraber göz gezdirelim.  
+PHP ilk çıktığında şu an olduğu kadar mükemmel değildi. Geçen Yıllar ve kitlesi PHP’yi bu hale getirdi. Artık yeni bir major versiyonumuz var. Hadi gelin yeniliklere beraber göz gezdirelim.  
 Ayrıca şunu belirtmeliyim ki sürüm güncellemesi yapmadan önce değişikliklerin listesine bakmanız yararınıza olacaktır. Buna [bu bağlantı](https://www.php.net/manual/tr/migration80.php)dan ulaşabilirsiniz.
 
 ## Named Arguments (Adlandırılmış Argümanlar)
 
-PHP 8 ile gelen sanırım en güzel özellik bu olabilir. Normal&#8217;de bir fonksiyonu kullanırken doldurmak istediğimiz bir argümanın sırası gelene kadar uğraşmamız gerekiyordu. Bu yeni gelen özellikle birlikte buna gerek kalmıyor. Argümanın ismini kullanarak direkt olarak o argümanı kullanabiliyorsunuz. Örnekle göstermek gerekirse;
+PHP 8 ile gelen sanırım en güzel özellik bu olabilir. Normal’de bir fonksiyonu kullanırken doldurmak istediğimiz bir argümanın sırası gelene kadar uğraşmamız gerekiyordu. Bu yeni gelen özellikle birlikte buna gerek kalmıyor. Argümanın ismini kullanarak direkt olarak o argümanı kullanabiliyorsunuz. Örnekle göstermek gerekirse;
 
 {% highlight php %}
 // önceden pozisyonel argümanları kullanıyorduk ve 
@@ -45,12 +47,12 @@ public function page() {}
 
 # şimdi ise
 
-class AboutPage extends AbstractController { #[Route(&#39;/about&#39;)]
+class AboutPage extends AbstractController { #[Route('/about')]
 public function page() {}
 }
 {% endhighlight %}
 
-## Construct&#8217;ta değişken tanımlamak (Constructor property promotion)
+## Construct’ta değişken tanımlamak (Constructor property promotion)
 
 Biliyorsunuz ki önceden bir sınıf içerisinde değişken oluşturduktan sonra this->değişken = veri şeklinde verileri atıyorduk. Artık böyle bir şeye ihtiyacımız yok! Hemen örnekle göstereyim.
 
@@ -68,9 +70,9 @@ public float $z;
         float $y = 0.0,
         float $z = 0.0,
     ) {
-        $this-&gt;x = $x;
-        $this-&gt;y = $y;
-        $this-&gt;z = $z;
+        $this->x = $x;
+        $this->y = $y;
+        $this->z = $z;
     }
 
 }
@@ -105,11 +107,11 @@ private $number;
 - @param float|int $number
    */
   public function __construct($number) {
-  $this-&gt;number = $number;
+  $this->number = $number;
   }
   }
 
-new Number(&#39;NaN&#39;); // Ok
+new Number('NaN'); // Ok
 
 # şimdi ise
 
@@ -119,7 +121,7 @@ private int|float $number
 ) {}
 }
 
-new Number(&#39;NaN&#39;); // TypeError
+new Number('NaN'); // TypeError
 {% endhighlight %}
 
 ## Match expression (Eşleşme İfadesi)
@@ -130,10 +132,10 @@ Eşleşen veriye göre veri döndüren switch benzeri bir ifade geldi. Verinin d
 $yaş = 23;
 
 $result = match (true) {
-$yaş &gt;= 65 =&gt; &#39;yaşlı&#39;,
-$yaş &gt;= 25 =&gt; &#39;yetişkin&#39;,
-$yaş &gt;= 18 =&gt; &#39;genç&#39;,
-default =&gt; &#39;çocuk&#39;,
+$yaş >= 65 => 'yaşlı',
+$yaş >= 25 => 'yetişkin',
+$yaş >= 18 => 'genç',
+default => 'çocuk',
 };
 {% endhighlight %}
 
@@ -148,13 +150,13 @@ Bu operatörle birlikte büyük bir dertten kurtulacaksınız. Aslında isminde 
 $country = null;
 
 if ($session !== null) {
-$user = $session-&gt;user;
+$user = $session->user;
 
 if ($user !== null) {
-$address = $user-&gt;getAddress();
+$address = $user->getAddress();
 
     if ($address !== null) {
-      $country = $address-&gt;country;
+      $country = $address->country;
     }
 
 }
@@ -162,7 +164,7 @@ $address = $user-&gt;getAddress();
 
 # şimdi ise
 
-$country = $session?-&gt;user?-&gt;getAddress()?-&gt;country;
+$country = $session?->user?->getAddress()?->country;
 {% endhighlight %}
 
 Gördüğünüz gibi muhteşem !
@@ -175,18 +177,18 @@ Fonksiyonların isminden de anlayacağımız üzere dize üzerinde yapabileceği
 
 # eskiden
 
-if(strpos(&#39;Kek yapmak için gereken tek şey ilham !&#39;, &#39;ilham&#39;) !== false):
+if(strpos('Kek yapmak için gereken tek şey ilham !', 'ilham') !== false):
 
 # şimdi ise
 
-if(str_contains(&#39;Kek yapmak için gereken tek şey ilham !&#39;,&#39;ilham&#39;)):
+if(str_contains('Kek yapmak için gereken tek şey ilham !','ilham')):
 {% endhighlight %}
 
 Ayrıca diğer fonksiyonlarda şöyle;
 
 {% highlight php %}
-str_starts_with(&#39;Liberta&#39;, &#39;Lib&#39;) // true döndürür.
-str_ends_with(&#39;Liberta&#39;, &#39;a&#39;) // true döndürür.
+str_starts_with('Liberta', 'Lib') // true döndürür.
+str_ends_with('Liberta', 'a') // true döndürür.
 {% endhighlight %}
 
 ## JIT yada Just in Time Compiler (Son Dakika Derleyicisi)
@@ -196,4 +198,4 @@ Bu ise performansı etkiliyor ve geliştiriyor fakat OPCache üzerinden aktif et
 
 ## Sonuç
 
-Benim gözüme çarpan yenilikler bunlar. Açıkcası daha bir çok yenilik var ve bunun için RFC PHP&#8217;yi takip etmenizi öneririm. Ayrıca tek satır fonksiyon konusunda ümitliyim. Umarım gelir 🙂
+Benim gözüme çarpan yenilikler bunlar. Açıkcası daha bir çok yenilik var ve bunun için RFC PHP’yi takip etmenizi öneririm. Ayrıca tek satır fonksiyon konusunda ümitliyim. Umarım gelir 🙂

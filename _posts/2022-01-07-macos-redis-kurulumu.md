@@ -1,12 +1,14 @@
 ---
 id: 419
-title: "MAC OS'ta PHPRedis ve Redis kurulumu"
+title: "MacOS'ta PHPRedis ve Redis kurulumu"
 date: 2022-01-07T15:30:21+03:00
 author: Meriç Enes Kayalar
 layout: post
 permalink: /2022-01-07-macos-redis-kurulumu
 categories:
   - Genel
+  - MacOS
+tags:
   - MacOS
 ---
 Aslında gayet basit, ihtiyacımız olanlar homebrew ve pecl'i kurduğunuz dizin. Eğer PHP'yi HomeBrew ile kurduysanız, pecl dizini büyük ihtimalle şöyle olacaktır :
@@ -28,6 +30,6 @@ ___
 
 Şimdi de redisi kuralım, bunun için de Terminale sadece `brew install redis` yazmamız yeterli.
 
-kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya `/usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf`  komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
+kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya `/usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf`  komutunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
 
 Redis için şifreyi de `/usr/local/etc/redis.conf` üzerinden ayarlayabilirsiniz.
