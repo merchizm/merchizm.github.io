@@ -1,6 +1,6 @@
 ---
 id: 419
-title: "Macos'ta PHPRedis ve Redis kurulumu"
+title: "MAC OS'ta PHPRedis ve Redis kurulumu"
 date: 2022-01-07T15:30:21+03:00
 author: Meriç Enes Kayalar
 layout: post
@@ -20,7 +20,7 @@ pecl'in varlığını teyit ettikten sonra başlayabiliriz, sırasıyla şu komu
 /usr/local/opt/php\@8.1/bin/pecl install redis
 {% endhighlight %}
 
-Bu şekilde PHPRedisi kurmuş olduk.
+Bu şekilde PHPRedis'i kurmuş olduk.
 
 Bu kurulum sürecinden sonra PHP servisinizi yeniden başlatmayı unutmayın. Ben hem PHP servisini hem de httpd'yi yeniden başlatıyorum.
 
