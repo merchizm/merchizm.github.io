@@ -26,8 +26,8 @@ Bu kurulum sürecinden sonra PHP servisinizi yeniden başlatmayı unutmayın. Be
 
 ___
 
-Şimdi de redisi kuralım, bunun için de Terminale sadece {% ihighlight bash %} brew install redis {% endihighlight %} yazmamız yeterli.
+Şimdi de redisi kuralım, bunun için de Terminale sadece {% ihighlight bash %} brew install redis {% endhighlight %} yazmamız yeterli.
 
-kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya {% ihighlight bash %}  /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf {% endihighlight %}  komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
+kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya {% ihighlight bash %}  /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf {% endhighlight %}  komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
 
-Redis için şifreyi de {% ihighlight bash %}  /usr/local/etc/redis.conf {% endihighlight %} üzerinden ayarlayabilirsiniz.
+Redis için şifreyi de {% ihighlight bash %}  /usr/local/etc/redis.conf {% endhighlight %} üzerinden ayarlayabilirsiniz.
