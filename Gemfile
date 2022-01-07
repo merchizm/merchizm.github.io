@@ -1,6 +1,3 @@
-
-gem 'jekyll_inline_highlight.rb'
-
 source "https://rubygems.org"
 gem 'jekyll'
 gem 'jekyll-paginate'
