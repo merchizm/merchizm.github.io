@@ -27,6 +27,6 @@ ___
 
 Şimdi de redisi kuralım, bunun için de Terminale sadece <pre> brew install redis </pre> yazmamız yeterli.
 
-kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya <pre>/usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf</pre> komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
+kurulum sonrası çıkan paragrafı okuyun, dilerseniz servisin sürekli arkaplanda çalıştırabilir veya <pre> /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf </pre> komudunu kullanarak ihtiyaç duyduğunuz anlarda çalıştırabilirsiniz.
 
-Redis için şifreyi de <pre>/usr/local/etc/redis.conf</pre> üzerinden ayarlayabilirsiniz.
+Redis için şifreyi de <pre> /usr/local/etc/redis.conf </pre> üzerinden ayarlayabilirsiniz.
