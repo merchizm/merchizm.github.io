@@ -5,21 +5,20 @@ keywords: Merchizm, mcek, mce, rocks
 description: >-
   Sürdürülebilir Kişisel Blog (yani umarım)
 lang: tr-TR
-timezone:  Europe/Istanbul
-google_verify:      XXX # Put your Google Verification here
-google_analytics:   G-8522JDEHW8 # Put your Google Analytics code
-discus-identifier:  merchizm
+timezone: Europe/Istanbul
+google_verify: t9L-uBH5lxexVKitbDdYo5l0C_05D2wM2wrgwznbiIs # Put your Google Verification here
+google_analytics: G-8522JDEHW8 # Put your Google Analytics code
+discus-identifier: merchizm
 
 # Author settings
 author:
   name: M.Enes Kayalar
   bio: Software Developer <br/> Pixel Artist / Şairimsi <br/> Open Source ❤️‍🔥
-  picture: assets/images/pp.jpeg 
+  picture: assets/images/pp.jpeg
   github: merchizm # github username
   twitter: merchizm # twitter username
   linkedin: enes-kayalar-88b3851b6 # linkedin username
   email: merichrocks@icloud.com # email adress
-
 
 # URL settings
 url: "https://merchizm.github.io" # Domain Name of host. [username].github.io for github pages
@@ -29,7 +28,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 
 exclude:
   - .jekyll-cache
@@ -54,26 +52,23 @@ collections:
   posts:
     output: true
     permalink: /:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
 relative_links:
-  enabled:     true
+  enabled: true
   collections: false
