@@ -109,13 +109,13 @@ Kullandığım araçlar:
 - Mocean Updater (2017-2018) Pasif
 <br/>Geliştiricilerin windows cihazlarda uygulamaları güncellemek adına kullanabileceği güncelleme sistemi. İNİ dosyasını düzenleyerek uygulamayı kişiselleştirebiliyordunuz.
 
-- [Mocean Cleaner (2018) Pasif](./assets/uploads/2020/11/mcn_clnr.jpg)
+- [Mocean Cleaner (2018) Pasif]({{ site.url }}/portfolio/mcleaner)
 <br/>Bilgisayardaki gereksiz dosyaları, gereksiz registry anahtarlarını temizleyen ve ram kullanımını düşüren bir projedir. Toyota'nın Sakaryada'ki düzenlediği teknik yarışmaya katılmak amacı ile geliştirilmiştir. 
 
-- [Meido (2018-2020) Pasif](./assets/uploads/2021/01/meido_site.png)
+- [Meido (2018-2020) Pasif]({{ site.url }}/portfolio/meido)
 <br/>Facebook, Instagram, Youtube, Tumblr sitelerinden medya indirmenize olanak sağlayan basit bir proje.
 
-_Projelerin görsellerine erişmek için projenin ismine tıklayın._
+_Projelerin detaylarına veya görseline erişmek için projenin ismine tıklayın._
 
 
 ## Güncel Projelerim
