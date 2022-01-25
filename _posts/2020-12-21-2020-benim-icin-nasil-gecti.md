@@ -1,5 +1,4 @@
 ---
-id: 361
 title: Benim için 2020 nasıl geçti?
 date: 2020-12-21T09:50:32+03:00
 author: Meriç Enes Kayalar

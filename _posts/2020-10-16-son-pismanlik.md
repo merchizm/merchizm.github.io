@@ -1,5 +1,4 @@
 ---
-id: 232
 title: Son Pişmanlık
 date: 2020-10-16T16:22:18+03:00
 author: Meriç Enes Kayalar

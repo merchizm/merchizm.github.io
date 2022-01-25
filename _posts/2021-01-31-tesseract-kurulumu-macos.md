@@ -1,5 +1,4 @@
 ---
-id: 419
 title: "MacOS&#8217;a Tesseract ve Ek Dil Kurulumu"
 date: 2021-01-31T16:45:48+03:00
 author: Meriç Enes Kayalar

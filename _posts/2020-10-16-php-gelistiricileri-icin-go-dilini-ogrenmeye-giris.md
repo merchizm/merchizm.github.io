@@ -1,5 +1,4 @@
 ---
-id: 226
 title: PHP Geliştiricileri için GO Dilini öğrenmeye Giriş
 date: 2020-10-16T16:00:32+03:00
 author: Meriç Enes Kayalar

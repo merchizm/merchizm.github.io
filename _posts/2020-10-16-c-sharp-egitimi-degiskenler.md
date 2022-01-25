@@ -1,5 +1,4 @@
 ---
-id: 260
 title: "C# Eğitimi : Değişkenlerin Tanımı ve Kullanımı"
 date: 2020-10-16T21:48:02+03:00
 author: Meriç Enes Kayalar

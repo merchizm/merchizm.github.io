@@ -1,5 +1,4 @@
 ---
-id: 250
 title: Eigengrau
 date: 2020-10-16T16:34:57+03:00
 author: Meriç Enes Kayalar

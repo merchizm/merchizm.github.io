@@ -1,5 +1,4 @@
 ---
-id: 246
 title: Cana Batan Gemi
 date: 2020-10-16T16:32:29+03:00
 author: Meriç Enes Kayalar

@@ -1,5 +1,4 @@
 ---
-id: 291
 title: 'Mocean Cleaner&#8217;a ne oldu?'
 date: 2020-11-03T15:49:46+03:00
 author: Meriç Enes Kayalar

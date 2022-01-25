@@ -1,5 +1,4 @@
 ---
-id: 377
 title: Mutlaka bilmeniz gereken 7 Javascript İpucu
 date: 2020-12-29T16:33:16 03:00
 author: Meriç Enes Kayalar

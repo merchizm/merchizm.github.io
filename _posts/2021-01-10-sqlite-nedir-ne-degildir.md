@@ -1,5 +1,4 @@
 ---
-id: 373
 title: SQLite Nedir? nasıl kullanılır? Nasıl indirilir?
 date: 2021-01-10T15:14:29+03:00
 author: Meriç Enes Kayalar

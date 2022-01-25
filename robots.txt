@@ -3,3 +3,6 @@ layout: none
 ---
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
+
+User-agent: Googlebot-Image
+Disallow: /assets/uploads/

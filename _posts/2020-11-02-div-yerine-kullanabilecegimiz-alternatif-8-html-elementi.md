@@ -1,5 +1,4 @@
 ---
-id: 272
 title: div yerine kullanabileceğimiz alternatif 8 HTML Elementi
 date: 2020-11-02T14:17:28+03:00
 author: Meriç Enes Kayalar

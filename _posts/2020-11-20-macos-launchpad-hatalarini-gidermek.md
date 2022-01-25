@@ -1,5 +1,4 @@
 ---
-id: 345
 title: Launchpad Hataları nelerdir? Hatalar nasıl çözülür?
 date: 2020-11-20T21:35:00+03:00
 author: Meriç Enes Kayalar

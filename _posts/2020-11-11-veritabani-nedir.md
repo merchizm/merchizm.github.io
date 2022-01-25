@@ -1,5 +1,4 @@
 ---
-id: 299
 title: Veritabanı Nedir? SQL Nedir? Neden Veritabanı?
 date: 2020-11-11T18:11:38+03:00
 author: Meriç Enes Kayalar

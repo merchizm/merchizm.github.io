@@ -72,13 +72,21 @@ Ha bu arada Descartes, Seneca falan seviyoruzdur umarım, felsefe tüketmeyen in
 - MySQL/MariaDB
 - MSSQL
 - SQLite
+- JQuery
 
 Şu anda üzerine durduğum ve öğrendiklerim:
 
 - Svelte.js
+- Vue.js veya React (hala kararsızım)
 - Django
 - Java
 - Swift ve Swift UI
+- Three.js
+- GSAP
+- Restify
+- Rabbit MQ
+- PostgreSQL
+- Elasticsearch
 
 Kullandığım araçlar:
 
@@ -95,6 +103,8 @@ Kullandığım araçlar:
 - Docker
 - git cli
 - Ngrok
+- Blender
+- Figma
 - Aseprite ( PixelArt için )
 - ColorSlurp
 
@@ -115,7 +125,11 @@ Kullandığım araçlar:
 - [Meido (2018-2020) Pasif]({{ site.url }}/portfolio/meido)
 <br/>Facebook, Instagram, Youtube, Tumblr sitelerinden medya indirmenize olanak sağlayan basit bir proje.
 
-_Projelerin detaylarına veya görseline erişmek için projenin ismine tıklayın._
+- [SQLite Helper (Python) 2022](https://github.com/merchizm/sqlite-helper-python)
+<br/> Nesne tabanlı programlama dersimden aldığım proje ödevi, Oluşturduğum Python sınıfı sayesinde SQLite tablolarınızı daha kolay bir şekilde Terminal üzerinden yönetebileceksiniz.
+
+
+_Projelerin detaylarına/görseline erişmek için projenin ismine tıklayın._
 
 
 ## Güncel Projelerim
@@ -135,8 +149,6 @@ _Projelerin detaylarına veya görseline erişmek için projenin ismine tıklay�
 - WordGameDiscord.js 2022
 <br/> Discord üzerindeki sunucunuzda arkadaşlarınızla olan faliyetinizi arttırmanız için kendi sunucunuz için hazırlayabileceğiniz açık kaynaklı kelime tahmin oyunu botu.
 
-- SQLite Helper (Python) 2022
-<br/> Nesne tabanlı programlama dersimden aldığım proje ödevi, Oluşturduğum Python sınıfı sayesinde SQLite tablolarınızı daha kolay bir şekilde Terminal üzerinden yönetebileceksiniz.
 
 ## Planlanan Projelerim
 

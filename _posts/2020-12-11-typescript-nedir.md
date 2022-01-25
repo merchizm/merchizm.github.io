@@ -1,5 +1,4 @@
 ---
-id: 367
 title: Typescript Nedir? Neden Typescript?
 date: 2020-12-11T12:17:43+03:00
 author: Meriç Enes Kayalar

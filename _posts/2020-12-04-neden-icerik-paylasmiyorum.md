@@ -1,5 +1,4 @@
 ---
-id: 356
 title: Kaçırıldım mı? Neden içerik paylaşmıyorum?
 date: 2020-12-04T19:54:34+03:00
 author: Meriç Enes Kayalar

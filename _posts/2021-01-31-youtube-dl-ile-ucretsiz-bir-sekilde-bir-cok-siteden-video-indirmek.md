@@ -1,5 +1,4 @@
 ---
-id: 405
 title: youtube-dl ile ücretsiz bir şekilde bir çok siteden video indirmek
 date: 2021-01-31T16:21:06+03:00
 author: Meriç Enes Kayalar

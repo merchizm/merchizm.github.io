@@ -1,5 +1,4 @@
 ---
-id: 382
 title: PHP 8 ile gelen yeni özellikler ve fonksiyonlar
 date: 2021-01-20T08:58:51 03:00
 author: Meriç Enes Kayalar

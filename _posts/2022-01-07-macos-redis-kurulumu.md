@@ -1,5 +1,4 @@
 ---
-id: 419
 title: "MacOS'ta PHPRedis ve Redis kurulumu"
 date: 2022-01-07T15:30:21+03:00
 author: Meriç Enes Kayalar
