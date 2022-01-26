@@ -1,9 +1,10 @@
 ---
-title: "MacOS&#8217;a Tesseract ve Ek Dil Kurulumu"
+title: "MacOS'a Tesseract ve Ek Dil Kurulumu"
 date: 2021-01-31T16:45:48+03:00
 author: Meriç Enes Kayalar
+description: "Tesseract'ı macOS'a kurmak ve konumunu öğrenmek, Türkçe veya farklı bir ek dilin kurulumu"
 layout: post
-permalink: /2021-01-31-tesseract-kurulumu-macos
+permalink: /tesseract-kurulumu-macos
 categories:
   - Genel
   - MacOS

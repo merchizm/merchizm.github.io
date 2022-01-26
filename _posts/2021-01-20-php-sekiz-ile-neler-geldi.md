@@ -2,8 +2,9 @@
 title: PHP 8 ile gelen yeni özellikler ve fonksiyonlar
 date: 2021-01-20T08:58:51 03:00
 author: Meriç Enes Kayalar
+description: "PHP 8.0 ile gelen yenilikleri detaylı bir şekilde inceleyeceğiz ve çıkarımlar yapacağız. Bizi hangi özellikler bekliyor, keşfedelim !"
 layout: post
-permalink: /2021-01-20-php-sekiz-ile-neler-geldi
+permalink: /php-sekiz-ile-neler-geldi
 categories:
   - PHP
   - Yazılım

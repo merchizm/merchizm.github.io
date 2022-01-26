@@ -2,8 +2,9 @@
 title: Typescript Nedir? Neden Typescript?
 date: 2020-12-11T12:17:43+03:00
 author: Meriç Enes Kayalar
+description: "Typescript'in popülaritesi geçtiğimiz son birkaç yılda büyük bir artış gösterdi. En umut vadeden beş dil arasında yer almasının sırrı ney?"
 layout: post
-permalink: /2020-12-11-typescript-nedir
+permalink: /typescript-nedir
 categories:
   - Javascript
   - Yazılım

@@ -2,8 +2,9 @@
 title: Kaçırıldım mı? Neden içerik paylaşmıyorum?
 date: 2020-12-04T19:54:34+03:00
 author: Meriç Enes Kayalar
+description: "Selamlar! iki haftadır hiç bir içerik paylaşmadığımı fark etmişsinizdir. Gelin size mantıklı açıklamalar sunup kalbiniz almaya çalışayım."
 layout: post
-permalink: /2020-12-04-neden-icerik-paylasmiyorum
+permalink: /neden-icerik-paylasmiyorum
 categories:
   - Genel
 tags:

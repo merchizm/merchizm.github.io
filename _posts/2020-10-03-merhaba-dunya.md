@@ -2,8 +2,9 @@
 title: Merhaba Dünya
 date: 2020-10-03T09:14:24+03:00
 author: Meriç Enes Kayalar
+description: Gergin bir merhaba dünya
 layout: post
-permalink: /2020-10-03-merhaba-dunya
+permalink: /merhaba-dunya
 categories:
   - Genel
 tags: [gergin bir merhaba]

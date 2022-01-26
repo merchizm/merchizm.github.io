@@ -2,8 +2,9 @@
 title: Launchpad Hataları nelerdir? Hatalar nasıl çözülür?
 date: 2020-11-20T21:35:00+03:00
 author: Meriç Enes Kayalar
+description: "MacOS Launchpad hataları nelerdir? Nasıl Çözülür? Resimli anlatım. MacOS Catalina (10.15) ile OS X Lion (10.7) arasındaki Mac'ler için geçerlidir."
 layout: post
-permalink: /2020-11-20-macos-launchpad-hatalarini-gidermek
+permalink: /macos-launchpad-hatalarini-gidermek
 categories:
   - MacOS
 ---

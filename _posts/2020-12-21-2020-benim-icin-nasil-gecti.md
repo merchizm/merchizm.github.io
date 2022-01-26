@@ -2,8 +2,9 @@
 title: Benim için 2020 nasıl geçti?
 date: 2020-12-21T09:50:32+03:00
 author: Meriç Enes Kayalar
+description: "Peki benim için 2020 nasıl geçti? gelin buna bir bakalım."
 layout: post
-permalink: /2020-12-21-2020-benim-icin-nasil-gecti
+permalink: /benim-icin-nasil-gecti
 categories:
   - Genel
 tags:

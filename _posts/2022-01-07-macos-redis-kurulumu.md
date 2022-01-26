@@ -2,8 +2,9 @@
 title: "MacOS'ta PHPRedis ve Redis kurulumu"
 date: 2022-01-07T15:30:21+03:00
 author: Meriç Enes Kayalar
+description: "Bu yazımda PHPRedis ve Redis nasıl en kolay şekilde kurulur onu anlattım."
 layout: post
-permalink: /2022-01-07-macos-redis-kurulumu
+permalink: /macos-phpredis-ve-redis-kurulumu
 categories:
   - Genel
   - MacOS

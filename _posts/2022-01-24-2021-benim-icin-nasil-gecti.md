@@ -2,8 +2,9 @@
 title: "2021 benim için nasıl geçti?"
 date: 2022-01-24T13:11:21+03:00
 author: Meriç Enes Kayalar
+description: "Selam, 2020'de yazmaya başladığım yıl sonu değerlendirme yazımın 2021 versiyonu için bir süredir kendimi sıkıştırıyordum. Aslında çok dolu dolu güzel bir yıl yaşadım fakat bahanelerle bu blog yazısını yazmayı erteledim ama sonunda beklenen o an geldi."
 layout: post
-permalink: /2022-01-24-2021-benim-icin-nasil-gecti
+permalink: /2021-benim-icin-nasil-gecti
 categories:
   - Genel
 tags:

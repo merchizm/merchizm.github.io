@@ -2,8 +2,9 @@
 title: Mutlaka bilmeniz gereken 7 Javascript İpucu
 date: 2020-12-29T16:33:16 03:00
 author: Meriç Enes Kayalar
+description: "Javascript'te size zamandan ve satırdan tasarruf ettirecek mutlaka bilmeniz gereken yedi inanılmaz ipucu..."
 layout: post
-permalink: /2020-12-29-yedi-javascript-ipucu
+permalink: /yedi-javascript-ipucu
 categories:
   - Javascript
   - Yazılım

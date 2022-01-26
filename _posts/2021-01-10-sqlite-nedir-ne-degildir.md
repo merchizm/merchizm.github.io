@@ -2,8 +2,9 @@
 title: SQLite Nedir? nasıl kullanılır? Nasıl indirilir?
 date: 2021-01-10T15:14:29+03:00
 author: Meriç Enes Kayalar
+description: "SQLite popüler bir açık kaynaklı veritabanı türüdür. Bu makalede, Sqlite'ın ne olduğunu, en son sürümün nasıl kurulacağını anlatacağım."
 layout: post
-permalink: /2021-01-10-sqlite-nedir-ne-degildir
+permalink: /sqlite-nedir-ne-degildir
 categories:
   - Veritabanı
 tags:

@@ -3,7 +3,8 @@ title: div yerine kullanabileceğimiz alternatif 8 HTML Elementi
 date: 2020-11-02T14:17:28+03:00
 author: Meriç Enes Kayalar
 layout: post
-permalink: /2020-11-02-div-yerine-kullanabilecegimiz-alternatif-8-html-elementi
+description: "Div çorbasından kurtulmak için div yerine kullanabileceğimiz alternatif 8 HTML Elementi şunlar, aside,footer,header...."
+permalink: /div-yerine-kullanabilecegimiz-alternatif-8-html-elementi
 categories:
   - HTML
   - Yazılım

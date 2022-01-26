@@ -2,8 +2,9 @@
 title: 'Homebrew ile MacOSa Yerleşik (L)AMP Kurmak'
 date: 2020-10-08T22:00:28 03:00
 author: Meriç Enes Kayalar
+description: "Bugün kurulumu hızlandıran ve basitleştiren Homebrew ile MacOS üzerinde yerleşik (L)AMP yani APACHE, MYSQL, PHP kurulumu yapacağız."
 layout: post
-permalink: /2020-10-08-homebrew-ile-macosa-yerlesik-lamp-kurmak
+permalink: /homebrew-ile-macosa-yerlesik-lamp-kurmak
 categories: [MacOS, Yazılım]
 tags: [Hızlı bir şekilde MacOS AMP Kurulumu ,install lamp on MAC ,kurulum ,lamp ,lamp kurulumu ,MacOS PHP MYSQL APACHE Kurulumu ,MacOS üzerine LAMP Kurmak ,MacOS üzerine localhost kurmak]
 ---

@@ -3,7 +3,8 @@ title: 'Mocean Cleaner&#8217;a ne oldu?'
 date: 2020-11-03T15:49:46+03:00
 author: Meriç Enes Kayalar
 layout: post
-permalink: /2020-11-03-mocean-cleanera-ne-oldu
+permalink: /mocean-cleanera-ne-oldu
+description: "Aslında &quot;ona ne olduğuna&quot; girmeden önce &quot;ne olduğuna&quot; girelim. Mesela &quot;Mocean Cleaner nedir?&quot;, &quot;Nasıl bir zımbırtıdır?&quot;, &quot;Ben bunu neden yaptım da cami havlusuna bıraktım?&quot;. Hepsi yazımızın devamında, ilerleyen dakikalarda..."
 image: /wp-content/uploads/2020/11/mocean_markasi-363x188.png
 categories:
   - Projeler

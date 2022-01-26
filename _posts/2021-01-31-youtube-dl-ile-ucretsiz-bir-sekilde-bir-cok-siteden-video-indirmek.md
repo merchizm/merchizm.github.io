@@ -2,8 +2,9 @@
 title: youtube-dl ile ücretsiz bir şekilde bir çok siteden video indirmek
 date: 2021-01-31T16:21:06+03:00
 author: Meriç Enes Kayalar
+description: "Başlıkta da belirttiğim gibi popüler bir çok siteyi destekleyen ve desteklenen sitelerdeki videoları indirmenize avantaj sağlayan program."
 layout: post
-permalink: /2021-01-31-youtube-dl-ile-ucretsiz-bir-sekilde-bir-cok-siteden-video-indirmek
+permalink: /youtube-dl-ile-ucretsiz-bir-sekilde-bir-cok-siteden-video-indirmek
 categories:
   - Genel
   - MacOS

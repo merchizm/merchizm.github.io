@@ -2,6 +2,7 @@
 title: "C# Eğitimi : Değişkenlerin Tanımı ve Kullanımı"
 date: 2020-10-16T21:48:02+03:00
 author: Meriç Enes Kayalar
+description: "Bugün C# eğitiminin ilki olan değişkenler konusunu işleyeceğiz. Değişkenler, hafızada veri tipine ve boyutuna göre yer kaplayan yapılardır."
 layout: post
 permalink: /2020-10-16-c-sharp-egitimi-degiskenler
 categories: ["C#", Yazılım]

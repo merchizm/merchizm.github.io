@@ -2,8 +2,9 @@
 title: Veritabanı Nedir? SQL Nedir? Neden Veritabanı?
 date: 2020-11-11T18:11:38+03:00
 author: Meriç Enes Kayalar
+description: "Bildiğiniz üzere veri bulunduğumuz çağda çok büyük bir öneme sahip, bu bağlamda veritabanları da aynı değeri kazanıyor. Peki Veritabanı Nedir?"
 layout: post
-permalink: /2020-11-11-veritabani-nedir
+permalink: /veritabani-nedir-sql-nedir-neden-veritabani
 categories:
   - Veritabanı
 ---
