@@ -134,13 +134,13 @@ _Projelerin detaylarına/görseline erişmek için projenin ismine tıklayın._
 
 ## Güncel Projelerim
 
-- [Todoiva 2021-2020'Q1](https://github.com/merchizm/Todoiva)
+- [Todoiva 2021-2022'Q1](https://github.com/merchizm/Todoiva)
 <br/> Todoiva, yarışma amacı gütmeyen kendi çizgisinden usulca ilerleyen şık bir electron uygulamasıdır. Uygulama kodlayan kişilerin pratik bir şekilde kodlarken öğrenmesi için geliştirilmektedir.
 
 - Julia Bot 2021-?
 <br/> Discord üzerinde kullanılması için genel amaçla geliştirilmektedir.
 
-- ?????? ????? 2021-2022'Q1/Q2/Q3 
+- ?????? ????? 2021-
 <br/> Kullanıcılarının hedeflerini takip etmesine olanak sağlayan ve bu vazifede onların yanında olup hedef için gereken adımların sürekliliğini arttırması için geliştirilen bir uygulamadır.
 
 - PHPSecureLogin 2022
@@ -148,8 +148,3 @@ _Projelerin detaylarına/görseline erişmek için projenin ismine tıklayın._
 
 - WordGameDiscord.js 2022
 <br/> Discord üzerindeki sunucunuzda arkadaşlarınızla olan faliyetinizi arttırmanız için kendi sunucunuz için hazırlayabileceğiniz açık kaynaklı kelime tahmin oyunu botu.
-
-
-## Planlanan Projelerim
-
-Açıkcası paylaşmayı çok isterdim fakat şimdilik bende kalsın 🤡. Oyun bozanlık yapıyorum evet ama öbür türlü merak etmezsiniz ki 🤒.
