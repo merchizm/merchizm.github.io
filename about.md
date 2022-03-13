@@ -77,7 +77,8 @@ Ha bu arada Descartes, Seneca falan seviyoruzdur umarım, felsefe tüketmeyen in
 Şu anda üzerine durduğum ve öğrendiklerim:
 
 - Svelte.js
-- Vue.js veya React (hala kararsızım)
+- Vue.js
+- React.js
 - Django
 - Java
 - Swift ve Swift UI
