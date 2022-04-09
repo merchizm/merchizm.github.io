@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: merchizm.github.io
+Token: 7c19ed38ece54d30a10f4123cb10a3cecdc764956bab49a844a2d90501627b0c
