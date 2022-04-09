@@ -38,9 +38,6 @@ exclude:
   - README.md
   - CONTRIBUTING.md
 
-include:
-  - .well-known
-
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
