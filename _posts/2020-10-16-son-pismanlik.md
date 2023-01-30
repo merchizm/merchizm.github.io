@@ -22,4 +22,4 @@ Nefes aldıkça izmarite yaklaştığımdan
 Yolumda koşarken adım adım
 Özgürlüğe, bir an için duraksıyorum
 Gördüğüm elinde balon olan bir çocuk
-Dönüp gülümsedi bana sonra bir ses</pre></a>
+Dönüp gülümsedi bana sonra bir ses</pre>
