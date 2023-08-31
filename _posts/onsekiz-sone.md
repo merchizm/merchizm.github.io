@@ -3,7 +3,6 @@ title: "18. Sone"
 date: 2023-08-31T16:22:18+03:00
 author: Meriç Enes Kayalar
 layout: post
-
 permalink: /onsekiz-sone
 categories: [Şiirimsiler]
 format: quote

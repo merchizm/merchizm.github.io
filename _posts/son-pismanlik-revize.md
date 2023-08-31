@@ -3,7 +3,6 @@ title: Son Pişmanlık Revize
 date: 2023-08-31T16:22:18+03:00
 author: Meriç Enes Kayalar
 layout: post
-
 permalink: /son-pismanlik-revize
 categories: [Şiirimsiler]
 format: quote
