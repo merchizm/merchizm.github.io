@@ -1,6 +1,6 @@
 # Site settings
 site: Rocks
-title: Merchizm Blog
+title: Meriç`in Bloğu
 keywords: Merchizm, mcek, mce, rocks
 description: >-
   Sürdürülebilir Kişisel Blog (yani umarım)
@@ -12,13 +12,13 @@ discus-identifier: merchizm
 
 # Author settings
 author:
-  name: M.Enes Kayalar
+  name: Meriç Enes Kayalar
   bio: Software Developer <br/> Pixel Artist / Şairimsi <br/> Open Source ❤️‍🔥
   picture: assets/images/pp.jpeg
   github: merchizm # github username
   twitter: merchizm # twitter username
   linkedin: enes-kayalar-88b3851b6 # linkedin username
-  email: merichrocks@icloud.com # email adress
+  email: merich@duck.com # email adress
 
 # URL settings
 url: "https://merchizm.github.io" # Domain Name of host. [username].github.io for github pages
