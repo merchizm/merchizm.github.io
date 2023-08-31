@@ -1,5 +1,3 @@
-# Ephesus
+# blog
 
-Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
-
-Author [Hakan Torun](https://hakan.io).
+mekayalar.dev / merchizm.github.io
