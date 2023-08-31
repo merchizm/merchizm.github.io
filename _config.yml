@@ -21,7 +21,7 @@ author:
   email: merich@duck.com # email adress
 
 # URL settings
-url: "https://merchizm.github.io" # Domain Name of host. [username].github.io for github pages
+url: "https://mekayalar.dev" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
