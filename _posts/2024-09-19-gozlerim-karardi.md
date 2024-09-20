@@ -1,5 +1,5 @@
 ---
-title: "Tenine düşen yağmur damlalarından korurum seni"
+title: "gözlerim karardı"
 date: 2023-11-23T00:01:04+03:00
 author: Meriç Enes Kayalar
 layout: post
