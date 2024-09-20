@@ -1,6 +1,6 @@
 ---
 title: "bir gün görmezse gönlüm seni"
-date: 2023-11-23T00:01:04+03:00
+date: 2024-09-19T00:01:04+03:00
 author: Meriç Enes Kayalar
 layout: post
 permalink: /bir-gun-bulusacagiz-inaniyorum
